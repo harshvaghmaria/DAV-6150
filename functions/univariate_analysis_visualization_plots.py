@@ -27,7 +27,6 @@ def distribution_plot(i, df, type='numeric', normalize=True):
         type (str): Type of data, either 'numeric' or 'categorical'. Defaults to 'numeric'.
         normalize (bool): Whether to normalize counts. Defaults to True.
     """
-    warnings.filterwarnings("ignore", category=FutureWarning)
 
     column = df.iloc[:, i]
 
